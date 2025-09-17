@@ -1,0 +1,90 @@
+{
+    "name": "zero-log",
+    "version": "0.1.0",
+    "description": "A high-performance, TypeScript-first logging library built on Pino with advanced PII masking capabilities",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        },
+        "./browser": {
+            "types": "./dist/browser.d.ts",
+            "import": "./dist/browser.mjs",
+            "require": "./dist/browser.js"
+        }
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "format": "prettier --write \"src/**/*.{ts,js,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,js,json}\""
+  },
+    "keywords": [
+        "logging",
+        "typescript",
+        "logger",
+        "pino",
+        "pii-masking",
+        "structured-logging",
+        "sentry",
+        "observability",
+        "performance",
+        "privacy",
+        "redaction"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "pino": "^8.17.0"
+    },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+    "peerDependencies": {
+        "@sentry/node": "^7.0.0",
+        "@sentry/browser": "^7.0.0"
+    },
+    "peerDependenciesMeta": {
+        "@sentry/node": {
+            "optional": true
+        },
+        "@sentry/browser": {
+            "optional": true
+        }
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/zero-log.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yourusername/zero-log/issues"
+    },
+    "homepage": "https://github.com/yourusername/zero-log#readme"
+}
