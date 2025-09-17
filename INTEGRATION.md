@@ -10,7 +10,7 @@ This method keeps zero-log as a submodule, allowing you to easily update it.
 
 ```bash
 # Add zero-log as a submodule
-git submodule add https://github.com/yourusername/zero-log.git libs/zero-log
+git submodule add https://github.com/bytes-by-talari/zero-log.git libs/zero-log
 
 # Initialize and update submodules
 git submodule init
@@ -57,7 +57,7 @@ Copy the source files directly into your project.
 
 ```bash
 # Clone zero-log
-git clone https://github.com/yourusername/zero-log.git temp-zero-log
+git clone https://github.com/bytes-by-talari/zero-log.git temp-zero-log
 
 # Copy source files to your project
 cp -r temp-zero-log/src ./libs/zero-log
@@ -85,7 +85,7 @@ Build zero-log separately and copy the built files.
 
 ```bash
 # Clone and build zero-log
-git clone https://github.com/yourusername/zero-log.git
+git clone https://github.com/bytes-by-talari/zero-log.git
 cd zero-log
 npm install
 npm run build
@@ -356,8 +356,8 @@ describe('Logger Integration', () => {
 ### Getting Help
 
 - Check the [main README](README.md) for usage examples
-- Open an [issue](https://github.com/yourusername/zero-log/issues) for bugs
-- Start a [discussion](https://github.com/yourusername/zero-log/discussions) for questions
+- Open an [issue](https://github.com/bytes-by-talari/zero-log/issues) for bugs
+- Start a [discussion](https://github.com/bytes-by-talari/zero-log/discussions) for questions
 
 ## 📚 Additional Resources
 

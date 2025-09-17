@@ -24,7 +24,7 @@ my-express-api/
 ### Setup
 ```bash
 # Add zero-log as submodule
-git submodule add https://github.com/yourusername/zero-log.git libs/zero-log
+git submodule add https://github.com/bytes-by-talari/zero-log.git libs/zero-log
 cd libs/zero-log && npm install && npm run build && cd ../..
 
 # Install Pino
@@ -142,7 +142,7 @@ my-nextjs-app/
 ### Setup
 ```bash
 # Copy zero-log source
-git clone https://github.com/yourusername/zero-log.git temp-zero-log
+git clone https://github.com/bytes-by-talari/zero-log.git temp-zero-log
 cp -r temp-zero-log/src ./lib/zero-log
 rm -rf temp-zero-log
 
@@ -273,7 +273,7 @@ my-microservice/
 ### Setup
 ```bash
 # Add zero-log as submodule
-git submodule add https://github.com/yourusername/zero-log.git libs/zero-log
+git submodule add https://github.com/bytes-by-talari/zero-log.git libs/zero-log
 cd libs/zero-log && npm install && npm run build && cd ../..
 
 # Install dependencies

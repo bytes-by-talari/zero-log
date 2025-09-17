@@ -21,20 +21,20 @@
         "dist",
         "README.md"
     ],
-  "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
-    "test": "vitest",
-    "test:watch": "vitest --watch",
-    "test:coverage": "vitest --coverage",
-    "lint": "eslint src --ext .ts",
-    "lint:fix": "eslint src --ext .ts --fix",
-    "type-check": "tsc --noEmit",
-    "clean": "rm -rf dist",
-    "prepublishOnly": "npm run clean && npm run build",
-    "format": "prettier --write \"src/**/*.{ts,js,json}\"",
-    "format:check": "prettier --check \"src/**/*.{ts,js,json}\""
-  },
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "test": "vitest",
+        "test:watch": "vitest --watch",
+        "test:coverage": "vitest --coverage",
+        "lint": "eslint src --ext .ts",
+        "lint:fix": "eslint src --ext .ts --fix",
+        "type-check": "tsc --noEmit",
+        "clean": "rm -rf dist",
+        "prepublishOnly": "npm run clean && npm run build",
+        "format": "prettier --write \"src/**/*.{ts,js,json}\"",
+        "format:check": "prettier --check \"src/**/*.{ts,js,json}\""
+    },
     "keywords": [
         "logging",
         "typescript",
@@ -53,17 +53,17 @@
     "dependencies": {
         "pino": "^8.17.0"
     },
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "@vitest/coverage-v8": "^1.0.0",
-    "eslint": "^8.0.0",
-    "prettier": "^3.0.0",
-    "tsup": "^8.0.0",
-    "typescript": "^5.0.0",
-    "vitest": "^1.0.0"
-  },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "@vitest/coverage-v8": "^1.0.0",
+        "eslint": "^8.0.0",
+        "prettier": "^3.0.0",
+        "tsup": "^8.0.0",
+        "typescript": "^5.0.0",
+        "vitest": "^1.0.0"
+    },
     "peerDependencies": {
         "@sentry/node": "^7.0.0",
         "@sentry/browser": "^7.0.0"
@@ -81,10 +81,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourusername/zero-log.git"
+        "url": "https://github.com/bytes-by-talari/zero-log.git"
     },
     "bugs": {
-        "url": "https://github.com/yourusername/zero-log/issues"
+        "url": "https://github.com/bytes-by-talari/zero-log/issues"
     },
-    "homepage": "https://github.com/yourusername/zero-log#readme"
+    "homepage": "https://github.com/bytes-by-talari/zero-log#readme"
 }

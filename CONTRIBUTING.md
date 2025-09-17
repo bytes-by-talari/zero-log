@@ -169,9 +169,9 @@ Releases are handled by maintainers. When your PR is merged:
 
 ## 💬 Community
 
-- Join our [Discussions](https://github.com/yourusername/zero-log/discussions)
-- Follow us on [Twitter](https://twitter.com/yourusername)
-- Check out our [Wiki](https://github.com/yourusername/zero-log/wiki)
+- Join our [Discussions](https://github.com/bytes-by-talari/zero-log/discussions)
+- Follow us on [Twitter](https://twitter.com/bytes-by-talari)
+- Check out our [Wiki](https://github.com/bytes-by-talari/zero-log/wiki)
 
 ## 📄 License
 

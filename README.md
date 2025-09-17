@@ -36,7 +36,7 @@ npm install zero-log
 
 ### Option 2: GitHub Repository
 ```bash
-npm install git+https://github.com/yourusername/zero-log.git
+npm install git+https://github.com/bytes-by-talari/zero-log.git
 ```
 
 ### Option 3: Direct Integration (No NPM)
@@ -44,7 +44,7 @@ npm install git+https://github.com/yourusername/zero-log.git
 #### Method A: Git Submodule
 ```bash
 # Add as submodule
-git submodule add https://github.com/yourusername/zero-log.git libs/zero-log
+git submodule add https://github.com/bytes-by-talari/zero-log.git libs/zero-log
 
 # Install dependencies
 cd libs/zero-log
@@ -59,7 +59,7 @@ npm install pino
 #### Method B: Direct Copy
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/zero-log.git
+git clone https://github.com/bytes-by-talari/zero-log.git
 
 # Copy source files to your project
 cp -r zero-log/src ./libs/zero-log
@@ -287,7 +287,7 @@ zero-log is built for performance:
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/zero-log.git
+git clone https://github.com/bytes-by-talari/zero-log.git
 cd zero-log
 
 # Install dependencies
@@ -370,8 +370,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - 📖 [Integration Guide](INTEGRATION.md) - Detailed integration examples
-- 🐛 [Report Issues](https://github.com/yourusername/zero-log/issues)
-- 💬 [Discussions](https://github.com/yourusername/zero-log/discussions)
+- 🐛 [Report Issues](https://github.com/bytes-by-talari/zero-log/issues)
+- 💬 [Discussions](https://github.com/bytes-by-talari/zero-log/discussions)
 - 📧 [Email Support](mailto:support@example.com)
 
 ---
@@ -380,6 +380,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for the Indian developer community**
 
-[⭐ Star this repo](https://github.com/yourusername/zero-log) • [🐛 Report Bug](https://github.com/yourusername/zero-log/issues) • [💡 Request Feature](https://github.com/yourusername/zero-log/issues)
+[⭐ Star this repo](https://github.com/bytes-by-talari/zero-log) • [🐛 Report Bug](https://github.com/bytes-by-talari/zero-log/issues) • [💡 Request Feature](https://github.com/bytes-by-talari/zero-log/issues)
 
 </div>
